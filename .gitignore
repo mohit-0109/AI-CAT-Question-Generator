@@ -1,4 +1,3 @@
-target/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -15,3 +14,18 @@ buildNumber.properties
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+# Node modules
+**/node_modules/
+
+# Maven build target
+**/target/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# OS file
+.DS_Store
+Thumbs.db
